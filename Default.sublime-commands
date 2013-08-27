@@ -1,0 +1,7 @@
+// This file is for the popup menu
+[
+	{
+		"caption": "CombineAndMinfiy: Build",
+		"command": "build"
+	}
+]
