@@ -1,0 +1,20 @@
+// This file is for the right click menu
+[
+    {
+        "caption": "CombineAndMinfiy",
+        "children":
+        [
+            {
+                "caption": "Build",
+                "command": "build"
+            }
+        ]
+    },
+    {
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/CombineAndMinfiy/readme.txt"
+        },
+        "caption": "ReadMe"
+    }
+]
