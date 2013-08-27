@@ -1,0 +1,134 @@
+// This file is for the prefs, and tools menu
+[
+    // Tools Menu
+	{
+		"id": "tools",
+		"children":
+		[
+		    {
+		    	"id": "wrap"
+		    },
+            {
+                "caption": "CombineAndMinfiy",
+                "children":
+                [
+                    {
+                        "caption": "Build",
+                        "command": "build"
+                    },
+                    {
+                        "command": "open_file", "args":
+                        {
+                            "file": "${packages}/CombineAndMinfiy/readme.txt"
+                        },
+                        "caption": "ReadMe"
+                    }
+                ]
+            }
+		]
+	},
+    // Prefs
+	{
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "CombineAndMinfiy",
+                        "children":
+                        [
+                            // Settings
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/CombineAndMinfiy/CombineAndMinfiy.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/CombineAndMinfiy.sublime-settings"
+                                },
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" },
+                            { "caption": "-" },
+                            // Keys
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/CombineAndMinfiy/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/CombineAndMinfiy/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/CombineAndMinfiy/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            { "caption": "-" },
+                            { "caption": "-" },
+                            // Functions
+                            {
+                                "caption": "Build",
+                                "command": "build"
+                            },
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/CombineAndMinfiy/readme.txt"
+                                },
+                                "caption": "ReadMe"
+                            }
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
