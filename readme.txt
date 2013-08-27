@@ -2,17 +2,9 @@
 
 Combine a list of JavaScript files Into a single master and minified version
 
-# Created
-
-8/2013
-
-# Version
-
-1.0
-
 # Release Notes
 
-- Initial build
+https://github.com/joelcarlton/Sublime-CombineAndMinify
 
 # Setting Up CombineAndMinify
 
