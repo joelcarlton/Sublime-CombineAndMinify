@@ -98,7 +98,7 @@ class BuildCommand(sp.TextCommand):
         ########################## Begin ##########################
         print ''
         settings = s.load_settings('CombineAndMinfiy.sublime-settings')
-        print 'CombineAndMinfiy Version: ' + settings.get('Version')
+        #print 'CombineAndMinfiy Version: ' + settings.get('Version')
         print 'Build Initiated'
         s.status_message('CombineAndMinify Build Initiated')
         print ''
