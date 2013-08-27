@@ -37,8 +37,11 @@ In order to use CombineAndMinify your project must be saved to a .sublime-projec
 
 ##### Minimum Settings
 ```json
-"Combine: FileList": "/files.txt",
-"Combine: InPath": "/public/js/"
+"settings":
+{
+	"Combine: FileList": "/files.txt",
+	"Combine: InPath": "/public/js/"
+}
 ```
 
 ##### Template
@@ -52,7 +55,6 @@ In order to use CombineAndMinify your project must be saved to a .sublime-projec
 	],
 	"settings":
 	{
-		# Add Settings Here
 		"Combine: FileList": "/files.txt",
 		"Combine: InPath": "/public/js/",
 		"Combine: OutPath": "/private/js/",
