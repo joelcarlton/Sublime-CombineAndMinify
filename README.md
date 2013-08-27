@@ -8,9 +8,16 @@ Combine a list of JavaScript files Into a single master and minified version
 
 ### Version
 
-1.0
+1.0.1
 
 ## Release Notes
+
+### 1.0.1 (08/27/13)        
+
+- Added project description
+- Fixed syntax error
+
+### 1.0.0 (08/2013)
 
 - Initial build
 
@@ -57,7 +64,7 @@ In order to use CombineAndMinify your project must be saved to a .sublime-projec
 
 ##### files.txt
 
-```txt
+```
 ################ Comments Are Ignored ################
 externaljs.js
 externaljs2.js
