@@ -1,0 +1,8 @@
+// Key command file
+[
+	{ 
+		"keys": ["ctrl+alt+b"], 
+		"caption": "CombineAndMinfiy: Build",
+		"command": "build"
+	}
+]
