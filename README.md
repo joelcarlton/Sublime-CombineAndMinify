@@ -6,11 +6,19 @@ Combine a list of JavaScript files Into a single master and minified version
 
 8/2013
 
+## Last Updated
+
+12/2013
+
 ### Version
 
-1.0.1
+1.0.2
 
 ## Release Notes
+
+### 1.0.2 (12/12/13)        
+
+- Updated documentation to include absolute paths and notes
 
 ### 1.0.1 (08/27/13)        
 
@@ -34,6 +42,10 @@ In order to use CombineAndMinify your project must be saved to a .sublime-projec
 7. Make files.txt with a list of files that should be processed at the location specified with FileList
 8. Run by using key command, tools menu, right click menu, or command palette
 
+Notes:
+
+1. Paths may need to be set up as absolute to work
+2. InPath and OutPath require a trailing directory /
 
 ##### Minimum Settings
 ```json
@@ -57,9 +69,9 @@ In order to use CombineAndMinify your project must be saved to a .sublime-projec
 	],
 	"settings":
 	{
-		"Combine: FileList": "/files.txt",
-		"Combine: InPath": "/public/js/",
-		"Combine: OutPath": "/private/js/",
+		"Combine: FileList": "/path/to/working/files/files.txt",
+		"Combine: InPath": "/path/to/working/files/public/js/",
+		"Combine: OutPath": "/path/to/working/files/private/js/",
 		"Combine: MasterName": "master.js",
 		"Combine: MinifyName": "master.min.js"
 	}
